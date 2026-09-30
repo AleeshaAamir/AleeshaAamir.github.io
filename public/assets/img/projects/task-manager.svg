@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e1245"/><stop offset="1" stop-color="#5b21b6"/></linearGradient>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="700" cy="60" r="160" fill="#8b5cf6" opacity=".25"/>
+  <g transform="translate(70 55)">
+    <rect width="660" height="400" rx="16" fill="#0f0b1f"/>
+    <rect width="660" height="34" rx="16" fill="#1c1636"/><rect y="18" width="660" height="16" fill="#1c1636"/>
+    <circle cx="22" cy="17" r="5" fill="#f87171"/><circle cx="40" cy="17" r="5" fill="#fbbf24"/><circle cx="58" cy="17" r="5" fill="#34d399"/>
+    <rect x="0" y="34" width="140" height="366" fill="#151030"/>
+    <text x="20" y="68" fill="#fff" font-size="15" font-weight="700">TaskFlow</text>
+    <rect x="14" y="86" width="112" height="26" rx="7" fill="#2a1f55"/>
+    <g font-size="11"><text x="26" y="103" fill="#e9e3ff">Dashboard</text>
+    <text x="26" y="135" fill="#8f86b3">My Tasks</text><text x="26" y="163" fill="#8f86b3">Create Task</text><text x="26" y="191" fill="#8f86b3">Profile</text></g>
+    <text x="165" y="72" fill="#fff" font-size="17" font-weight="700">Dashboard</text>
+    <g font-size="10" fill="#b8b0d9">
+      <rect x="165" y="88" width="148" height="70" rx="10" fill="#1c1636"/><text x="180" y="110">Total tasks</text><text x="180" y="142" font-size="24" fill="#fff" font-weight="700">24</text>
+      <rect x="323" y="88" width="148" height="70" rx="10" fill="#1c1636"/><text x="338" y="110">Completed</text><text x="338" y="142" font-size="24" fill="#34d399" font-weight="700">17</text>
+      <rect x="481" y="88" width="160" height="70" rx="10" fill="#1c1636"/><text x="496" y="110">In progress</text><text x="496" y="142" font-size="24" fill="#fbbf24" font-weight="700">7</text>
+    </g>
+    <rect x="165" y="172" width="476" height="30" rx="8" fill="#1c1636"/><text x="180" y="191" fill="#6f6793" font-size="11">Search tasks...</text>
+    <g font-size="12" fill="#e9e3ff">
+      <rect x="165" y="214" width="476" height="44" rx="9" fill="#1c1636"/><rect x="180" y="229" width="14" height="14" rx="4" fill="#34d399"/><text x="206" y="241">Design login &amp; register pages</text><rect x="560" y="227" width="66" height="18" rx="9" fill="#123d2f"/><text x="578" y="240" font-size="9" fill="#34d399">Done</text>
+      <rect x="165" y="266" width="476" height="44" rx="9" fill="#1c1636"/><rect x="180" y="281" width="14" height="14" rx="4" fill="none" stroke="#a78bfa" stroke-width="2"/><text x="206" y="293">JWT auth + protected routes</text><rect x="560" y="279" width="66" height="18" rx="9" fill="#3d2e0d"/><text x="576" y="292" font-size="9" fill="#fbbf24">Active</text>
+      <rect x="165" y="318" width="476" height="44" rx="9" fill="#1c1636"/><rect x="180" y="333" width="14" height="14" rx="4" fill="none" stroke="#a78bfa" stroke-width="2"/><text x="206" y="345">MongoDB pagination &amp; filters</text><rect x="560" y="331" width="66" height="18" rx="9" fill="#2a1f55"/><text x="578" y="344" font-size="9" fill="#a78bfa">To do</text>
+    </g>
+    <rect x="165" y="376" width="476" height="6" rx="3" fill="#1c1636"/><rect x="165" y="376" width="336" height="6" rx="3" fill="url(#bar)"/>
+  </g>
+</svg>
